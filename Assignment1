@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+height = input("Enter your height (in cm): ")
+print("\nYour Information:\n")
+print("Name:", name)
+print("Age:", age)
+print("Height:", height, "cm")
