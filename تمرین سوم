@@ -1,0 +1,12 @@
+num1 = float(input("عدد اول را وارد کنید"))
+num2 = float(input("عدد دوم را وارد کنید"))
+num3 = float(input("عدد سوم را وارد کنید"))
+num4 = float(input("عدد چهارم را وارد کنید"))
+largest = num1
+if num2 > largest:
+    largest = num2
+elif num3 > largest:
+    largest = num3
+else num4 > largest:
+    largest = num4
+print("بزرگترین عدد وارد شده:", largest)
