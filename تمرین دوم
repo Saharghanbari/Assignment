@@ -1,0 +1,10 @@
+score = float(input("نمره دانشجو را وارد کنید"))
+if score > 90:
+    print("عالی")
+elif score > 70:
+    print("خوب")
+elif score > 50:
+    print("متوسط")
+else score < 50:
+    print("مردود")
+print("وضعیت نمره شما")
